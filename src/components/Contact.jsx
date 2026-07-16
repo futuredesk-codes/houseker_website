@@ -4,8 +4,8 @@ import Reveal from './Reveal'
 import './Contact.css'
 
 const CARDS = [
-  { icon: IconPhone, title: 'Call Us', line1: '+91 XXX XXX XXXX', line2: 'Mon-Sat, 9am - 7pm' },
-  { icon: IconMail, title: 'Email Us', line1: 'hello@chinarestates.in', line2: 'We reply within 24 hours' },
+  { icon: IconPhone, title: 'Call Us', line1: '+91 9484000002', line2: 'Mon-Sat, 9am - 7pm' },
+  { icon: IconMail, title: 'Email Us', line1: 'info@houseker.com', line2: 'We reply within 24 hours' },
   { icon: IconPin, title: 'Visit Us', line1: 'Srinagar, Kashmir', line2: 'Serving the entire Valley' },
 ]
 

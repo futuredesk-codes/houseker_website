@@ -31,9 +31,9 @@ export default function DeleteAccount() {
         </li>
         <li>
           Prefer not to use the app? Email{' '}
-          <a href="mailto:hello@chinarestates.in">hello@chinarestates.in</a> with the subject{' '}
+          <a href="mailto:info@houseker.com">info@houseker.com</a> with the subject{' '}
           <strong>"Delete My Account"</strong> from your registered email address, or call{' '}
-          <a href="tel:+91XXXXXXXXXX">+91 XXX XXX XXXX</a> and ask our team to process a
+          <a href="tel:+919484000002">+91 9484000002</a> and ask our team to process a
           deletion request.
         </li>
         <li>Our team verifies that the request came from you, the account holder.</li>
@@ -92,8 +92,8 @@ export default function DeleteAccount() {
       <p>
         If your account is linked to an ongoing case and you're not sure what deleting it will
         affect, talk to your account manager first, or reach our team at{' '}
-        <a href="mailto:hello@chinarestates.in">hello@chinarestates.in</a> or{' '}
-        <a href="tel:+91XXXXXXXXXX">+91 XXX XXX XXXX</a>.
+        <a href="mailto:info@houseker.com">info@houseker.com</a> or{' '}
+        <a href="tel:+919484000002">+91 9484000002</a>.
       </p>
     </LegalLayout>
   )

@@ -7,8 +7,8 @@ import './MobileApp.css'
 
 const FEATURES = [
   { icon: IconBell, title: 'Real-Time Alerts', desc: 'Instant updates on your estates.' },
-  { icon: IconVault, title: 'Document Vault', desc: 'Secure, encrypted storage for records.' },
-  { icon: IconChat, title: 'Direct Chat', desc: 'Talk to your advisor, wherever you are.' },
+  { icon: IconVault, title: 'Document Vault', desc: 'Secure access anytime.' },
+  { icon: IconChat, title: 'Direct Chat', desc: 'Talk to your advisor.' },
 ]
 
 export default function MobileApp() {
@@ -24,7 +24,7 @@ export default function MobileApp() {
           </h2>
           <p>
             Real-time updates on exclusive estates, instant document access, and direct
-            contact with your property advisor — wherever you are.
+            communication with your property advisor — wherever you are.
           </p>
 
           <ul className="mobile-app__features">
@@ -50,7 +50,9 @@ export default function MobileApp() {
         <Reveal as="div" className="mobile-app__media" delay={120}>
           <div className="phone-frame">
             <div className="phone-frame__notch" />
-            <img src={appMockup} alt="Houseker Estates mobile app home screen" />
+            <div className="phone-frame__screen">
+              <img src={appMockup} alt="Houseker Estates mobile app home screen" />
+            </div>
           </div>
         </Reveal>
       </div>

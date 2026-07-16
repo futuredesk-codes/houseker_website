@@ -16,7 +16,7 @@ export default function CTA() {
             <a href="#contact" className="btn btn-dark">
               Book Free Consultation
             </a>
-            <a href="tel:+911234567890" className="btn btn-outline-light">
+            <a href="tel:+919484000002" className="btn btn-outline-light">
               <IconPhone width="17" height="17" /> Call Us Now
             </a>
           </div>

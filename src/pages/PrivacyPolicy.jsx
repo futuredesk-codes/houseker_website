@@ -167,8 +167,8 @@ export default function PrivacyPolicy() {
       <h2>13. Contact us</h2>
       <p>
         Questions about this policy or your data? Reach us at{' '}
-        <a href="mailto:hello@chinarestates.in">hello@chinarestates.in</a>, call{' '}
-        <a href="tel:+91XXXXXXXXXX">+91 XXX XXX XXXX</a>, or visit our team in Srinagar,
+        <a href="mailto:info@houseker.com">info@houseker.com</a>, call{' '}
+        <a href="tel:+919484000002">+91 9484000002</a>, or visit our team in Srinagar,
         Kashmir.
       </p>
     </LegalLayout>
