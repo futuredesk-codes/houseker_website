@@ -1,6 +1,6 @@
+import playStore from '../assets/play_store.png'
+import appStore from '../assets/app_store.png'
 import {
-  GooglePlayBadge,
-  AppStoreBadge,
   IconSale,
   IconLegal,
   IconEncroachment,
@@ -42,8 +42,8 @@ export default function Services() {
             </p>
           </Reveal>
           <Reveal as="div" className="services__stores" delay={100}>
-            <GooglePlayBadge />
-            <AppStoreBadge />
+            <img src={playStore} alt="Google Play" className="store-badge-img" />
+            <img src={appStore} alt="App Store" className="store-badge-img" />
           </Reveal>
         </div>
 

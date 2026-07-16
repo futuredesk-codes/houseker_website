@@ -1,5 +1,7 @@
 import appMockup from '../assets/app-mockup.png'
-import { GooglePlayBadge, AppStoreBadge, IconBell, IconVault, IconChat } from './icons'
+import playStore from '../assets/play_store.png'
+import appStore from '../assets/app_store.png'
+import { IconBell, IconVault, IconChat } from './icons'
 import Reveal from './Reveal'
 import './MobileApp.css'
 
@@ -40,8 +42,8 @@ export default function MobileApp() {
           </ul>
 
           <div className="mobile-app__stores">
-            <GooglePlayBadge />
-            <AppStoreBadge />
+            <img src={playStore} alt="Google Play" className="store-badge-img" />
+            <img src={appStore} alt="App Store" className="store-badge-img" />
           </div>
         </Reveal>
 

@@ -1,6 +1,7 @@
 .legal__head {
   padding: 56px 0 40px;
   max-width: 780px;
+  margin: 0 auto;
 }
 
 .legal__back {
@@ -45,6 +46,7 @@
 
 .legal__content {
   max-width: 780px;
+  margin: 0 auto;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);

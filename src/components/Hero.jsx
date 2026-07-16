@@ -1,5 +1,10 @@
 import heroHouse from '../assets/hero-house.png'
-import { GooglePlayBadge, AppStoreBadge, IconStar, IconShield } from './icons'
+import user1 from '../assets/user1.png'
+import user2 from '../assets/user2.png'
+import user3 from '../assets/user3.png'
+import playStore from '../assets/play_store.png'
+import appStore from '../assets/app_store.png'
+import { IconStar, IconShield } from './icons'
 import Reveal from './Reveal'
 import './Hero.css'
 
@@ -21,8 +26,8 @@ export default function Hero() {
             on-ground inspections. Done right, done remote, done securely.
           </p>
           <div className="hero__stores">
-            <GooglePlayBadge />
-            <AppStoreBadge />
+            <img src={playStore} alt="Google Play" className="store-badge-img" />
+            <img src={appStore} alt="App Store" className="store-badge-img" />
           </div>
         </Reveal>
 
@@ -39,9 +44,9 @@ export default function Hero() {
 
           <div className="hero__float-card">
             <div className="avatar-stack">
-              <span style={{ background: '#f0664f' }} />
-              <span style={{ background: '#17130f' }} />
-              <span style={{ background: '#e2b98f' }} />
+              <img src={user1} alt="User" />
+              <img src={user2} alt="User" />
+              <img src={user3} alt="User" />
             </div>
             <div className="hero__float-card-text">
               <strong>1,200+</strong>

@@ -47,6 +47,17 @@
   background: #000;
 }
 
+.store-badge-img {
+  height: 42px;
+  width: auto;
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+.store-badge-img:hover {
+  transform: translateY(-3px);
+}
+
 .store-badge div {
   display: flex;
   flex-direction: column;
@@ -149,15 +160,16 @@
   display: flex;
 }
 
-.avatar-stack span {
+.avatar-stack img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   border: 2.5px solid #fff;
   margin-left: -10px;
+  object-fit: cover;
 }
 
-.avatar-stack span:first-child {
+.avatar-stack img:first-child {
   margin-left: 0;
 }
 
