@@ -1,0 +1,47 @@
+.cta {
+  padding: 60px 0;
+}
+
+.cta__box {
+  background: var(--coral);
+  border-radius: var(--radius-lg);
+  padding: 72px 40px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta__box::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.16), transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(255, 255, 255, 0.12), transparent 45%);
+  pointer-events: none;
+}
+
+.cta__box h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  max-width: 640px;
+  margin: 0 auto 16px;
+  position: relative;
+}
+
+.cta__box p {
+  max-width: 480px;
+  margin: 0 auto 34px;
+  opacity: 0.92;
+  line-height: 1.6;
+  position: relative;
+}
+
+.cta__actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  position: relative;
+}
