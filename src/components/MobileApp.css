@@ -1,6 +1,7 @@
 .mobile-app {
   background: var(--coral-soft);
-  padding: 110px 0;
+  padding-top: 110px;
+  padding-bottom: 0;
   overflow: hidden;
 }
 
@@ -8,7 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 0.85fr;
   gap: 60px;
-  align-items: center;
+  align-items: end;
 }
 
 .mobile-app__copy h2 {
@@ -19,7 +20,7 @@
   margin: 20px 0 18px;
 }
 
-.mobile-app__copy > p {
+.mobile-app__copy>p {
   color: var(--ink-soft);
   line-height: 1.65;
   max-width: 440px;
@@ -75,6 +76,8 @@
 .mobile-app__media {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+  height: 100%;
 }
 
 .phone-frame {
@@ -84,7 +87,9 @@
   background: var(--ink);
   padding: 14px;
   box-shadow: var(--shadow-soft);
-  transition: transform 0.4s ease;
+
+  margin-bottom: -110px; /* phone ko section ke niche tak lao */
+  z-index: 2;
 }
 
 .phone-frame:hover {
@@ -105,8 +110,8 @@
 
 .phone-frame__screen {
   width: 100%;
-  aspect-ratio: 375 / 700;
-  border-radius: 28px;
+  aspect-ratio: 375 / 850;
+  border-radius: 25px;
   overflow: hidden;
 }
 
