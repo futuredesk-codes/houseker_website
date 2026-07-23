@@ -86,13 +86,34 @@
   gap: 8px;
 }
 
+.legal__content ul {
+  list-style: none;
+  padding-left: 4px;
+}
+
 .legal__content li {
   color: var(--ink-soft);
   font-size: 15px;
   line-height: 1.65;
 }
 
-.legal__content li::marker {
+.legal__content ul li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.legal__content ul li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--coral);
+}
+
+.legal__content ol li::marker {
   color: var(--coral);
   font-weight: 700;
 }
