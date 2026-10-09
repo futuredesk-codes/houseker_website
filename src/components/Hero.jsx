@@ -26,8 +26,12 @@ export default function Hero() {
             on-ground inspections. Done right, done remote, done securely.
           </p>
           <div className="hero__stores">
-            <img src={playStore} alt="Google Play" className="store-badge-img" />
-            <img src={appStore} alt="App Store" className="store-badge-img" />
+            <a href="https://play.google.com/store/apps/details?id=com.user.houseker" target="_blank" rel="noopener noreferrer">
+              <img src={playStore} alt="Google Play" className="store-badge-img" />
+            </a>
+            <a href="https://apps.apple.com/in/app/houseker/id6793454462" target="_blank" rel="noopener noreferrer">
+              <img src={appStore} alt="App Store" className="store-badge-img" />
+            </a>
           </div>
         </Reveal>
 
