@@ -1,4 +1,4 @@
-import heroHouse from '../assets/hero-house.png'
+import heroMascot from '../assets/hero-mascot.jpg'
 import user1 from '../assets/user1.png'
 import user2 from '../assets/user2.png'
 import user3 from '../assets/user3.png'
@@ -37,7 +37,7 @@ export default function Hero() {
 
         <Reveal as="div" className="hero__media" delay={120}>
           <div className="hero__frame">
-            <img src={heroHouse} alt="Verified Kashmir property with traditional green roof" />
+            <img src={heroMascot} alt="Houseker Kashmir mascot" />
             <span className="hero__badge">
               <IconShield />
               VERIFIED PROPERTY
